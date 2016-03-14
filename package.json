@@ -1,6 +1,6 @@
 {
   "name": "generator-koa-serve",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "a koa generator",
   "scripts": {
     "test": "mocha"
@@ -17,11 +17,11 @@
   ],
   "files": [
     "generators/app",
-    "generators/router"
+    "generators/view"
   ],
   "author": {
     "name": "addison",
-    "email": "",
+    "email": "627535440@qq.com",
     "url": "https://github.com/javascriptDev"
   },
   "bugs": {
