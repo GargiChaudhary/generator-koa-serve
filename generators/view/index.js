@@ -71,7 +71,7 @@ module.exports = Base.extend({
 	   this.fs.write(`${this.destinationPath()}/resource/es6/page/${name}.js`,tpl.js);
   	 this.fs.write(`${this.destinationPath()}/resource/less/${name}.less`,tpl.less);
      this.includeCtl && this.fs.write(`${this.destinationPath()}/controller/${name}.js`,tpl.controller.replace(/@page/ig,name));
-     if(!fs.existsSync(`${this.destinationPath()}/controller/${name}.js`)){
+     if(this.includeCtl && !fs.existsSync(`${this.destinationPath()}/controller/${name}.js`)){
         this.fs.write(`${this.destinationPath()}/controller/${name}.js`,tpl.controller.replace(/@page/ig,name));
       }
   }
