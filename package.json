@@ -30,7 +30,7 @@
   "homepage": "https://github.com/javascriptDev/generator-koa-serve",
   "dependencies": {
     "chalk": "^2.0.0",
-    "yeoman-generator": "^5.0.0",
+    "yeoman-generator": "^6.0.0",
     "yosay": "^2.0.0"
   },
   "licenses": [
